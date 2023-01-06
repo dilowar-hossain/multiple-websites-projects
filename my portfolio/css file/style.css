@@ -25,7 +25,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
-    background-color: rgb(19, 29, 147);
+    /* background-color: rgb(19, 29, 147); */
 }
 nav ul{
     padding: 0;
@@ -40,19 +40,21 @@ nav a{
     text-decoration: none;
 }
 .navigation{
-    background-color: rgb(19, 29, 147);
+    /* background-color: rgb(19, 29, 147); */
     padding:  25px;
 }
 nav.navigation-bar a{
     text-align: center;
 }
 div h1{
-    background-color: rgb(19, 29, 147);
     padding: 20px;
     margin: 0;
 }
+.heading{
+    /* background-color: rgb(19, 29, 147); */
+}
 img{
-    background-color: rgb(19, 29, 147);
+    /* background-color: rgb(19, 29, 147); */
     padding: 0 22px 0 0;
     margin: 0;
 }
@@ -64,7 +66,20 @@ nav.navigation{
 nav li:hover{
     background-color: rgb(156, 203, 24);
 }
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    text-align:left;
 
+}
+div h1{
+    text-align: center;
+}
 /* .footer{
     justify-content: center;
 }
